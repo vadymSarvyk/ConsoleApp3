@@ -48,6 +48,7 @@ namespace ConsoleApp3
         public void selectAllTables()
         {
             int line = 0;
+            int x = 0;
             SqlCommand command = new SqlCommand();
             command.Connection = conn;
             command.CommandText = "select * from products; select * from customers";
